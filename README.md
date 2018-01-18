@@ -16,7 +16,9 @@ Submit a Pull Request with an update. Contact sukhveer@polymath.network if you a
 
 ## I noticed something wrong with my allocation
 
-Please contact eric@polymath.network **immediately**. (CHANGES CAN NOT BE MADE AFTER JANAURY 25TH, 2018)!**
+Please contact eric@polymath.network **immediately**.
+
+CHANGES CAN NOT BE MADE AFTER JANAURY 25TH, 2018!
 
 ## How to run the script
 
