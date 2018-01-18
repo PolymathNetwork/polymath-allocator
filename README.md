@@ -4,11 +4,11 @@ This repo contains the POLY token allocation addresses for various pools of user
 
 | Supply        | Description           | File  |
 | ------------- |:-------------:|:-----:|
-| Advisors | Polymath advisors (locked up until August 23rd 2018) | [advisors.csv](/advisors.csv)|
-| Presale | Presale purchasers with no lockup | [presale.csv](/presale.csv) |
-| Bonus1 | Presale purchasers with 1 year lockup | [bonus1.csv](/bonus1.csv) |
-| Bonus2 | Presale purchasers with 2 year lockup | [bonus2.csv](/bonus2.csv) |
-| Bonus3 | Presale purchasers with 3 year lockup | [bonus3.csv](/bonus3.csv) |
+| Advisors | Polymath advisors (locked up until August 23rd 2018) | [advisors.csv](https://github.com/PolymathNetwork/polymath-allocations/data/advisors.csv)|
+| Presale | Presale purchasers with no lockup | [presale.csv](https://github.com/PolymathNetwork/polymath-allocations/data/presale.csv) |
+| Bonus1 | Presale purchasers with 1 year lockup | [bonus1.csv](https://github.com/PolymathNetwork/polymath-allocations/data/bonus1.csv) |
+| Bonus2 | Presale purchasers with 2 year lockup | [bonus2.csv](https://github.com/PolymathNetwork/polymath-allocations/data/bonus2.csv) |
+| Bonus3 | Presale purchasers with 3 year lockup | [bonus3.csv](https://github.com/PolymathNetwork/polymath-allocations/data/bonus3.csv) |
 
 ## How to update
 
@@ -22,4 +22,8 @@ CHANGES CAN NOT BE MADE AFTER JANAURY 25TH, 2018!
 
 ## How to run the script
 
-Drop the config file in the repo and run the allocation script
+There are two parts:
+
+1) Uploading to database, allows users to check their balances prior to the distribution at [token.polymath.network](https://token.polymath.network). This can be updated by cloning the repo, dropping the config files into this folder and calling each script in the /database folder.
+
+2) Uploading the allocations to the ethereum contracts allows the allocations to be locked in to the [POLY distribution](https://github.com/PolymathNetwork/polymath-token-distribution) contracts.
