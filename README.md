@@ -12,7 +12,7 @@ This repo contains the POLY token allocation addresses for various pools of user
 
 ## How to update
 
-Submit a Pull Request with an update. Contact sukhveer@polymath.network if you are having trouble with this.
+Submit a Pull Request with an update.
 
 ## I noticed something wrong with my allocation
 
